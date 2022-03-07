@@ -37,7 +37,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 56px 0;
+    padding: 72px 0;
 }
 
 .headline {
@@ -50,7 +50,10 @@ ul {
     color: #F9FAF8;
 }
 
-.hero-button {
+button {
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
     background: #3882f6;
     color: #F9FAF8;
     font-size: 18px;
@@ -58,30 +61,25 @@ ul {
     font-weight: 600;
 }
 
-button {
-    padding: 10px 24px;
-    border-radius: 8px;
-    border: none;
-}
-
 .hero-image {
     margin-left: 90px;
 }
 
 .information {
-    padding: 48px;
+    padding: 64px;
 }
 
 .info-header {
     font-weight: 800;
     font-size: 32px;
     color: #1F2937;
-    margin: 32px;
+    margin: 0 0 32px;
     text-align: center;
 }
 
 .info-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 48px;
@@ -100,13 +98,63 @@ button {
 .info-image {
     width: 100px;
     border: 2px solid #1F2937;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 10px;
 }
 
+.quote-container {
+    padding: 72px 0;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 18px;
+    /*max-width: 700px;*/
+}
 
+.quote-author {
+    font: size 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
 
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0;
+}
 
+.cta-container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 48px;
+    justify-content: space-around;
+    gap: 32px;
+    border-radius: 5px;
+}
+
+.cta-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-text {
+    font-size: 18px;
+    color:#F9FAF8
+}
+
+.cta-button {
+    border: 2px solid #F9FAF8;
+}
 
 
