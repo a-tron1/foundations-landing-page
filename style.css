@@ -21,10 +21,11 @@ ul {
     gap: 16px;
 }
 
-.header {
+.header,
+.footer {
     background-color: #1F2937;
     display: flex;
-    padding: 12px 24px;
+    padding: 16px 24px;
     align-items: center;
     justify-content: space-around;
     color: #F9FAF8
@@ -158,5 +159,4 @@ button {
 .cta-button {
     border: 2px solid #F9FAF8;
 }
-
 
