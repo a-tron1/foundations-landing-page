@@ -2,11 +2,9 @@ body {
     margin: 0;
     /*overflow: hidden;*/
     font-family: Roboto, sans-serif;
-    font-size: 16px;
   }
   
  .logo {
-    display: flex;
     font-size: 24px;
     font-weight: 700;
   }
@@ -37,7 +35,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 72px 0;
+    padding: 72px 64px;
 }
 
 .headline {
@@ -102,8 +100,8 @@ button {
     padding: 10px;
 }
 
-.quote-container {
-    padding: 72px 0;
+.quote {
+    padding: 72px 64px;
     background-color: #e5e7eb;
     color: #1F2937;
     display: flex;
@@ -112,25 +110,28 @@ button {
     align-items: center;
 }
 
+.quote-container {
+    max-width: 700px;
+}
+
 .quote-text {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
     margin-bottom: 18px;
-    /*max-width: 700px;*/
 }
 
 .quote-author {
     font: size 24px;
     font-weight: 700;
-    align-self: flex-end;
+    text-align: right;
 }
 
 .cta {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 72px 0;
+    padding: 72px 64px;
 }
 
 .cta-container {
@@ -138,6 +139,7 @@ button {
     background-color: #3882f6;
     padding: 32px 48px;
     justify-content: space-around;
+    align-items: center;
     gap: 32px;
     border-radius: 5px;
 }
