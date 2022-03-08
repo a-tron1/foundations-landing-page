@@ -2,15 +2,16 @@ body {
     margin: 0;
     /*overflow: hidden;*/
     font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #1F2937;
   }
   
  .logo {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
   }
 
 .header-links {
-    font-size: 18px;
     color: #808080;
 }
 
@@ -23,56 +24,57 @@ ul {
 
 .header,
 .footer {
-    background-color: #FFEC00;
     display: flex;
     padding: 16px 24px;
     align-items: center;
     justify-content: space-around;
-    color: #1F2937
+}
+
+.header,
+.footer,
+.hero {
+    background-color: #FFEC00;
+}
+
+.hero,
+.information,
+.quote,
+.cta {
+    padding: 96px 64px;
 }
 
 .hero {
-    background-color: #FFEC00;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 72px 64px;
+    gap: 90px;
 }
 
 .headline {
-    color: #1F2937;
     font-size: 48px;
     font-weight: 900;
-}
-
-.hero-text {
-    color: #1F2937;
+    margin-bottom: 12px;
 }
 
 button {
     padding: 10px 24px;
     border-radius: 8px;
     border: none;
-    background: #E62A8B;
     color: #F9FAF8;
-    font-size: 18px;
     margin: 12px 0;
     font-weight: 600;
+    font-size: 18px;
 }
 
-.hero-image {
-    margin-left: 90px;
-}
-
-.information {
-    padding: 64px;
+button,
+.cta-container{
+    background: #E62A8B;
 }
 
 .info-header {
     font-weight: 800;
     font-size: 32px;
-    color: #1F2937;
-    margin: 0 0 32px;
+    margin-bottom: 48px;
     text-align: center;
 }
 
@@ -89,25 +91,16 @@ button {
     text-align: center;
 }
 
-.info-text {
-    font-size: 18px;
-    color:#1F2937;
-    text-align: center;
-}
-
 .info-image {
     width: 100px;
-    border: 2px solid #1F2937;
+    border: 2px solid #E62A8B;
     border-radius: 10px;
     padding: 10px;
 }
 
 .quote {
-    padding: 72px 64px;
     background-color:#e5e7eb;
-    color: #1F2937;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -117,14 +110,13 @@ button {
 }
 
 .quote-text {
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
     font-weight: 100;
     margin-bottom: 18px;
 }
 
 .quote-author {
-    font: size 24px;
     font-weight: 700;
     text-align: right;
 }
@@ -133,31 +125,32 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 72px 64px;
 }
 
 .cta-container {
     display: flex;
-    background-color: #E62A8B;
-    padding: 32px 48px;
+    padding: 32px 56px;
     justify-content: space-around;
     align-items: center;
-    gap: 32px;
+    gap: 36px;
     border-radius: 5px;
 }
 
 .cta-header {
-    color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
 }
 
-.cta-text {
-    font-size: 18px;
+.cta-text,
+.cta-header {
     color:#F9FAF8
 }
 
 .cta-button {
     border: 2px solid #F9FAF8;
+}
+
+.footer {
+    font-size: 12px;
 }
 
